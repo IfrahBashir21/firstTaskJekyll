@@ -1,0 +1,45 @@
+.clearfix{
+	clear: both;
+}
+body{
+   font-family: 'Oswald', sans-serif;
+   margin:0;
+}
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+ul{
+	list-style: none;
+}
+a:focus, a:active{
+	outline: none;
+}
+header{
+	padding: 10px 15px;
+}
+.headerLogo{
+	width: 20%;
+	float: left;
+}
+
+.headerNav{
+  float: left;
+  width:80%;
+}
+.headerNav ul{
+	list-style-type: none;
+	text-align: right;
+}
+.headerNav ul li{
+	display: inline-flex;
+	margin: 10px;
+}
+.headerNav a{
+    text-transform: uppercase;
+    font-size: 19px;
+    text-decoration: none;
+    color: #90a4ae;
+    line-height: 40px;
+}

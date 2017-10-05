@@ -1,0 +1,9 @@
+---
+ layout: default
+---
+<a href="{{site.baseurl}}/" class="back">Blog</a>
+<h6 class="postdate">{{ page.postPublishDate }}</h6>
+<h1 class="posttitle">{{ page.title }}</h1>
+<h4 class="postauthor">Written By <span>{{ page.author }}</span></h4>
+<img class="postimg" src="{{site.baseurl}}/img/blogImages/{{page.represnationalPic}}" alt="Blog Image">
+{{content}}

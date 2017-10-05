@@ -1,0 +1,8 @@
+---
+---
+
+{% include css/header.css %}
+{% include css/blogPosts.css %}
+{% include css/footer.css %}
+{% include css/postSingle.css %}
+{% include css/pagination.css %}
